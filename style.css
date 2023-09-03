@@ -1,0 +1,172 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+:root {
+    --primary-color: #7c3aed;
+    --off-white: #f3f4f6;
+    --primary-heading: 2.125rem;
+    --primary-content: 1.125rem;
+}
+
+.navbar,
+.header ,.section {
+    /* border: 2px solid black; */
+    width: 100%;
+}
+
+.container {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0em auto;
+}
+
+
+
+.navbar {
+    /* position: fixed; */
+
+}
+
+.navbar-container {
+    /* margin: 2em auto; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    padding: 1.5em 0em;
+    padding-right: 2em;
+    padding-left: 1em;
+    font-size: 1.125rem;
+    background-color: var(--primary-color);
+    color: white;
+    align-items: center;
+
+}
+.logo-name{
+    font-weight: bold;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 3em;
+    list-style: none;
+}
+
+.navbar-list-link {
+    color: white;
+}
+
+.link-active {
+    font-weight: bold;
+
+}
+
+
+
+/* *********  header-style  ************** */
+.header{
+    /* text-align: center; */
+    margin-top: 4em;
+
+}
+
+.hero-image {
+    display: block;
+    width: 40%;
+    margin: 0em auto;
+}
+
+.hero-heading {
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 1.5em 0;
+}
+.hero-heading span{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+.section {
+    /* border: 2px solid black; */
+}
+
+.container-center {
+    text-align: center;
+    padding: 2em 0;
+    margin: 2em auto;
+    border-radius: 10px;
+    background-color: var(--off-white);
+
+}
+
+.container-heading {
+    font-size: var(--primary-heading);
+
+}
+
+.container-content {
+    font-size: var(--primary-content);
+    margin: 1.5em 0;
+}
+
+.container-project {
+    background-color: #fff;
+}
+
+
+.link {
+    /* border: 2px solid red; */
+
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: .4em .75em;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 15px;
+    padding: .4em .75em;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.25rem;
+    border-top-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
